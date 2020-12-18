@@ -56,5 +56,5 @@ circleci orb validate pack.yml
 circleci orb create realself/queue
 
 # Push orb (change version to latest)
-circleci orb publish ./orb.yml realself/queue@1.0.0
+circleci orb publish ./pack.yml realself/queue@X.X.X
 ```
