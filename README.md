@@ -53,7 +53,7 @@ circleci config pack src/ > pack.yml
 circleci orb validate pack.yml
 
 # Only for first time creation
-circleci orb create realself/upload-source-maps
+circleci orb create realself/queue
 
 # Push orb (change version to latest)
 circleci orb publish ./orb.yml realself/queue@1.0.0
